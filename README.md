@@ -11,7 +11,7 @@ No terminal, rode o comando
 
 ## Passo 3: Configuração do Banco de Dados
 Configure as variáveis corretas, como URL do banco de dados, usuário e senha em **src/main/resources/application.properties**:
-- spring.datasource.url=jdbc:mysql://localhost:3306/seu_banco_de_dados
+- spring.datasource.url=jdbc:postgresql://localhost:3306/seu_banco_de_dados
 - spring.datasource.username=usuario
 - spring.datasource.password=senha
 
